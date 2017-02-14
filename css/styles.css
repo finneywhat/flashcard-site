@@ -1,0 +1,49 @@
+html {
+  background-image: url("../img/desk.JPG");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+body {
+  background: transparent;
+}
+
+h1 {
+  font-family: 'Bangers', cursive;
+  text-shadow: 0 8px 20px black;
+  text-align: center;
+  color: white;
+  font-size: 100px;
+}
+
+.front p {
+  font-size: 28px;
+  font-family: 'Rock Salt';
+  text-align: center;
+  padding-top: 50px;
+}
+
+/*.back {
+  padding-right: 5px;
+}*/
+
+.back p {
+  font-size: 12px;
+  font-family: 'Rock Salt';
+  color: darkblue;
+  padding-top: 9px;
+}
+
+.definition-card, .col-md-2, .col-md-4 {
+  /*border: 1px solid black;*/
+  margin: 1px;
+  /*padding: 3px;*/
+  height: 190px;
+
+}
+
+.front, .back {
+  padding: 5px;
+  background-image: url(../img/indexcard.png);
+  background-size: cover;
+}
